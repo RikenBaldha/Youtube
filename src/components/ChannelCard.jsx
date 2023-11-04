@@ -10,6 +10,7 @@ const ChannelCard = ({ channelDetail, marginTop }) => {
   const [color, setcolor] = useState("white");
   const [flag, setFlag] = useState(0);
   
+  
 
   const [msg, setMsg] = useState("UnSubScribe");
 
