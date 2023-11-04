@@ -1,0 +1,127 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root{
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.category-btn:hover {
+  background-color: #FC1503 !important;
+  color: white !important;
+}
+
+.css-1qavptd-MuiCardContent-root:last-child {
+  padding-bottom: 45px !important ;
+}
+
+.category-btn:hover span{
+  color: white !important;
+}
+
+.css-0{
+  width: 320px;
+    height: 350px;
+    margin: 0px auto;
+}
+.css-1rr4qq7 {
+  height: fit-content;
+}
+.css-1dosxte-MuiStack-root {
+  margin-top: 30px;
+}
+.css-1htoy5l-MuiCardMedia-root {
+  width: auto !important;
+}
+.react-player {
+  height: 73vh !important;
+  width: 100% !important;
+}
+
+.search-bar{
+  border:none;
+  outline:none;
+  width:350px;
+}
+
+.category-btn{
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor:pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 900px) {
+  .category-btn{
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width:901px){
+  .copyright{
+    display:none !important;
+  }
+  .css-ng8t9f-MuiStack-root {
+    /* margin: 10px; */
+    flex-direction: unset;
+  }
+  .css-0{
+    margin: 0px auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card{
+    margin: 0px auto;
+   }
+  .scroll-horizontal {
+    overflow: auto !important;
+  }
+
+  .react-player {
+    height: 45vh !important;
+  }
+  .search-bar{
+    width:200px;
+  }
+}
+@media screen and (max-width: 425px) {
+ .card{
+  margin: 0px auto;
+ }
+ .css-0{
+  width: 323px;
+}
+}
+
